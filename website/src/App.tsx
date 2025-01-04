@@ -6,11 +6,11 @@ import About from './sections/About';
 const App: React.FC = () => {
   return (
     <div>
-      <section id="home" className="h-screen bg-gray-100">
         <Navbar />
-        <Hero />
-        <About />
-      </section>
+        <section id="home" className="h-screen bg-gray-100">
+            <Hero />
+            <About />
+        </section>
     </div>
   );
 };

@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
       </video>
 
       {/* Content Overlay */}
-      <div className="relative z-10 text-center text-white flex flex-col items-center justify-center h-full px-4">
+      <div className="relative text-center text-white flex flex-col items-center justify-center h-full px-4 z-10">
         <h1 className="text-5xl md:text-6xl font-bold mb-6">Gwiazdy z Klasą</h1>
         <p className="text-lg md:text-xl mb-8">
           Unlock the hidden potential of your car with premium tuning solutions.
@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
       </div>
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+      <div className="absolute inset-0 bg-black bg-opacity-70"></div>
     </section>
   );
 };
