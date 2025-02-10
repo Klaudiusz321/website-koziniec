@@ -1,18 +1,26 @@
-import React from 'react';
-import Navbar from './sections/Navbar';
-import Hero from './sections/Hero';
-import About from './sections/About';
+import { Routes, Route } from "react-router-dom";
+import { Container } from "react-bootstrap";
+import Home from "./pages/Home";
+import { Store } from "./pages/Store";
+import { CheckoutPage } from "./pages/CheckoutPage"; // Import strony Checkout
+import Navbar from "./components/Navbar";
+import { ShoppingCartProvider } from "./context/ShoppingCartContext";
+import AboutUs from "./components/Aboutus"; // Import komponentu AboutUs
 
-const App: React.FC = () => {
+function App() {
   return (
-    <div>
-        <Navbar />
-        <section id="home" className="h-screen bg-gray-100">
-            <Hero />
-            <About />
-        </section>
-    </div>
+    <ShoppingCartProvider>
+      <Navbar />
+      <Container className="mb-4">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/store" element={<Store />} />
+          <Route path="/checkout" element={<CheckoutPage />} />
+          <Route path="/about" element={<AboutUs />} /> {/* Dodaj trasę do AboutUs */}
+        </Routes>
+      </Container>
+    </ShoppingCartProvider>
   );
-};
+}
 
 export default App;
