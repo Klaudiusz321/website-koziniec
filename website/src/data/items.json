@@ -2,25 +2,25 @@
     {
       "id": 1,
       "name": "Book",
-      "price": 10.99,
+      "price": 45,
       "imgUrl": "public/photos/produkt.svg"
     },
     {
       "id": 2,
-      "name": "Computer",
-      "price": 1199,
+      "name": "Bluzka",
+      "price": 35,
       "imgUrl": "public/photos/produkt.svg"
     },
     {
       "id": 3,
-      "name": "Banana",
-      "price": 1.05,
+      "name": "Brylok",
+      "price": 20,
       "imgUrl": "public/photos/produkt.svg"
     },
     {
       "id": 4,
       "name": "Car",
-      "price": 14000,
+      "price": 15,
       "imgUrl": "public/photos/produkt.svg"
     }
   ]

@@ -32,7 +32,6 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
         shadow-sm
         transition-transform
         duration-200
-        hover:scale-105
         hover:shadow-lg
       "
     >
@@ -71,13 +70,12 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
             onClick={() => increaseCartQuantity(id)}
             className="
               w-full
-              bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600
-              hover:from-yellow-500 hover:via-pink-600 hover:to-purple-700
+              bg-red-600
               text-white font-bold py-2 px-4 rounded-full
               transition duration-200
             "
           >
-            Add to Cart
+            Dodaj do koszyka
           </button>
         ) : (
           <div className="flex flex-col items-center gap-2">
@@ -134,7 +132,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
                 active:scale-95
               "
             >
-              Remove
+              Usuń
             </button>
           </div>
         )}

@@ -1,4 +1,3 @@
-
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { formatCurrency } from "../utilities/formatCurrency";
 import { CartItem } from "./CartItem";
@@ -22,9 +21,9 @@ export function ShoppingCart({ isOpen }: ShoppingCartProps) {
     <div
       className={`
         fixed top-0 right-0
-        h-screen w-80
+        h-screen w-full sm:w-80
         bg-black text-white
-        border-l border-gray-700
+        sm:border-l sm:border-gray-700
         shadow-lg
         z-50
         transform transition-transform duration-300

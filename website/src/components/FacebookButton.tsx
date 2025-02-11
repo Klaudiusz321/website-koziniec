@@ -1,11 +1,11 @@
 import React from 'react';
 
-interface InstagramButtonProps {
+interface FacebookButtonProps {
   url: string;   // Adres URL do profilu Instagrama
   text?: string; // Opcjonalny tekst przycisku (domyślnie "Instagram")
 }
 
-const InstagramButton: React.FC<InstagramButtonProps> = ({ url, text = 'Instagram' }) => {
+const  FacebookButton: React.FC<FacebookButtonProps> = ({ url, text = 'Instagram' }) => {
   return (
     <a
       href={url}
@@ -19,4 +19,4 @@ const InstagramButton: React.FC<InstagramButtonProps> = ({ url, text = 'Instagra
   );
 };
 
-export default InstagramButton;
+export default FacebookButton;
