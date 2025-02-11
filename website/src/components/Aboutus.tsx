@@ -10,20 +10,6 @@ const albumsData = [
     location: "Żywiec",
     date: "15 marca 2025",
   },
-  {
-    id: 2,
-    title: "Album z Warszawy",
-    mainImage: "/photos/warszawa-main.jpg",
-    location: "Warszawa",
-    date: "22 kwietnia 2025",
-  },
-  {
-    id: 3,
-    title: "Album z Krakowa",
-    mainImage: "/photos/krakow-main.jpg",
-    location: "Kraków",
-    date: "10 czerwca 2025",
-  },
 ];
 
 const Aboutus: React.FC = () => {
