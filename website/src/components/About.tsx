@@ -11,10 +11,8 @@ const About: React.FC = () => {
             Poznamy się lepiej?
           </h2>
           <p className="text-lg text-gray-300 mb-6">
-          Naszą misją jest łączyć ludzi kochających Mercedesy z całej Polski. Możecie nas spotkać na zlotach i eventach 
-          motoryzacyjnych w całym kraju –
-           wszędzie tam, gdzie dźwięk silnika i miłość do gwiazdy jednoczy fanów czterech kółek. 
-
+            Naszą misją jest łączyć ludzi kochających Mercedesy z całej Polski. Możecie nas spotkać na zlotach i eventach 
+            motoryzacyjnych w całym kraju – wszędzie tam, gdzie dźwięk silnika i miłość do gwiazdy jednoczy fanów czterech kółek.
           </p>
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-4">
@@ -35,14 +33,12 @@ const About: React.FC = () => {
         {/* Obrazek po prawej stronie */}
         <div className="md:w-1/2">
           <img
-            src="public/photos/Messenger_creation_FE6FABF1-7A44-43CD-BE8A-C89EE1057815.jpeg"
+            src="/photos/Messenger_creation_FE6FABF1-7A44-43CD-BE8A-C89EE1057815.jpeg"
             alt="Szybkie auto"
-            className="rounded-lg shadow-lg"
+            className="w-full h-auto rounded-lg shadow-lg object-cover"
           />
         </div>
       </div>
-
-     
     </section>
   );
 };
