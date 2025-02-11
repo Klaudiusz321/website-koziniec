@@ -8,10 +8,6 @@ const albumPhotosData: { [key: number]: string[] } = {
     "/dist/photos/zywiec4.jpg",
     "/dist/photos/zywiec5.jpg",
     "/dist/photos/zywiec6.jpg",
-    "/dist/photos/zywiec7.jpg",
-    "/dist/photos/zywiec8.jpg",
-    "/dist/photos/zywiec9.jpg",
-    "/dist/photos/zywiec10.jpg",
   ],
 };
 
