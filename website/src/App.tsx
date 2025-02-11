@@ -6,6 +6,7 @@ import { CheckoutPage } from "./pages/CheckoutPage"; // Import strony Checkout
 import Navbar from "./components/Navbar";
 import { ShoppingCartProvider } from "./context/ShoppingCartContext";
 import AboutUs from "./components/Aboutus"; // Import komponentu AboutUs
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/about" element={<AboutUs />} /> {/* Dodaj trasę do AboutUs */}
         </Routes>
       </Container>
+      <Footer />
     </ShoppingCartProvider>
   );
 }

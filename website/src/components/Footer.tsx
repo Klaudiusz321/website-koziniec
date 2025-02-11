@@ -6,7 +6,7 @@ const Footer: React.FC = () => {
       <div className="flex flex-col md:flex-row justify-between items-center gap-8">
         {/* Logo i nazwa strony */}
         <div className="text-2xl font-bold">
-          <a href="/" className="text-white hover:text-red-500">Gwiazdy z Klasą</a>
+          <a href="/" className="text-white hover:text-red-500">GZK</a>
         </div>
 
         {/* Linki nawigacyjne */}
