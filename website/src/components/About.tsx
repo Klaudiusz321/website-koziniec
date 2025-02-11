@@ -33,7 +33,7 @@ const About: React.FC = () => {
         {/* Obrazek po prawej stronie */}
         <div className="md:w-1/2">
           <img
-            src="/photos/Messenger_creation_FE6FABF1-7A44-43CD-BE8A-C89EE1057815.jpeg"
+            src="/dist/photos/Messenger_creation_FE6FABF1-7A44-43CD-BE8A-C89EE1057815.jpeg"
             alt="Szybkie auto"
             className="w-full h-auto rounded-lg shadow-lg object-cover"
           />
