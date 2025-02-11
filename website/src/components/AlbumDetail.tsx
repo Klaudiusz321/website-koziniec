@@ -2,12 +2,12 @@ import { useParams } from 'react-router-dom';
 
 const albumPhotosData: { [key: number]: string[] } = {
   1: [
-    "/dist/photos/zywiec1.jpg",
-    "/dist/photos/zywiec2.jpg",
-    "/dist/photos/zywiec3.jpg",
-    "/dist/photos/zywiec4.jpg",
-    "/dist/photos/zywiec5.jpg",
-    "/dist/photos/zywiec6.jpg",
+    "/photos/zywiec1.jpg",
+    "/photos/zywiec2.jpg",
+    "/photos/zywiec3.jpg",
+    "/photos/zywiec4.jpg",
+    "/photos/zywiec5.jpg",
+    "/photos/zywiec6.jpg",
   ],
 };
 
