@@ -1,14 +1,56 @@
+// src/components/Aboutus.tsx
+import React from 'react';
+import { Link } from 'react-router-dom';
 
+const albumsData = [
+  {
+    id: 1,
+    title: "Album",
+    mainImage: "/dist/photos/main_zywiec.jpg", // Upewnij się, że zdjęcia są w public/photos
+    location: "Żywiec",
+    date: "15 marca 2025",
+  },
+  {
+    id: 2,
+    title: "Album z Warszawy",
+    mainImage: "/photos/warszawa-main.jpg",
+    location: "Warszawa",
+    date: "22 kwietnia 2025",
+  },
+  {
+    id: 3,
+    title: "Album z Krakowa",
+    mainImage: "/photos/krakow-main.jpg",
+    location: "Kraków",
+    date: "10 czerwca 2025",
+  },
+];
 
-export function Store() {
+const Aboutus: React.FC = () => {
   return (
-    <>
-      <div className="min-h-screen flex items-center justify-center bg-black text-white">
-        <h1 className="text-4xl font-bold">JUŻ WKRÓTCE</h1>
+    <section className="bg-black text-white py-16 px-8 md:px-16 lg:px-32">
+      <h2 className="text-4xl font-bold mb-12 text-center">Albumy z wydarzeń</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {albumsData.map((album) => (
+          <Link to={`/album/${album.id}`} key={album.id}>
+            <div className="rounded-lg overflow-hidden shadow-lg transform transition hover:scale-105">
+              <img
+                src={album.mainImage}
+                alt={album.title}
+                className="w-full h-64 object-cover"
+              />
+              <div className="p-4 bg-gray-800">
+                <h3 className="text-xl font-bold">{album.title}</h3>
+                <p className="text-gray-400">
+                  {album.location} – {album.date}
+                </p>
+              </div>
+            </div>
+          </Link>
+        ))}
       </div>
-      
-    </>
+    </section>
   );
-}
+};
 
-export default Store;
+export default Aboutus;
