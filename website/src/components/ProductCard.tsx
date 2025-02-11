@@ -1,12 +1,9 @@
-
-
 type ProductCardProps = {
-  id: number;
   name: string;
   imgUrl: string;
 };
 
-export function ProductCard({ id, name, imgUrl }: ProductCardProps) {
+export function ProductCard({ name, imgUrl }: ProductCardProps) {
   return (
     <div className="flex flex-col items-center p-4 bg-gray-800 rounded-lg">
       <img
