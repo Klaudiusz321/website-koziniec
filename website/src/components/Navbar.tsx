@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
     >
       {/* Logo */}
       <div className="text-2xl font-bold text-white drop-shadow-lg">
-        <Link to="/">Gwiazdy z Klasą</Link>
+        <Link to="/">GZK</Link>
       </div>
 
       {/* Desktop Menu */}
