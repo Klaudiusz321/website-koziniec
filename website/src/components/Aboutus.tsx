@@ -8,7 +8,7 @@ const albumsData = [
     title: "Album",
     mainImage: "/dist/photos/zywiec_main.jpg", // Upewnij się, że zdjęcia są w public/photos
     location: "Żywiec",
-    date: "15 marca 2025",
+    date: "14.07.2024",
   },
 ];
 
