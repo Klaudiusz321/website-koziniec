@@ -6,7 +6,7 @@ const albumsData = [
   {
     id: 1,
     title: "Album",
-    mainImage: "/dist/photos/main_zywiec.jpg", // Upewnij się, że zdjęcia są w public/photos
+    mainImage: "/dist/photos/zywiec_main.jpg", // Upewnij się, że zdjęcia są w public/photos
     location: "Żywiec",
     date: "15 marca 2025",
   },
