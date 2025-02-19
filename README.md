@@ -1,6 +1,7 @@
 # GZK – Stars with Class
-
+https://gwiazdyzklasa.netlify.app/
 **GZK – Stars with Class** is a modern e-commerce website dedicated to Mercedes enthusiasts. We combine a passion for automotive excellence with a touch of luxury at affordable prices. Our store offers a wide range of products—from keychains to exclusive GZK apparel—designed for those who appreciate both quality and a bit of playful elegance.
+![screencapture-gwiazdyzklasa-netlify-app-2025-02-19-17_16_47](https://github.com/user-attachments/assets/09ba81ac-4eff-4237-ba76-7cd65571495e)
 
 ## Project Overview
 
